@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+}
+
+h1, .container{
+    color: white;
+}
+
+.container{
+    margin: auto;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    line-height: 2;
+    border-radius: 8px;
+}
+
+img{
+    display: block;
+    margin: 10px auto;
+}
+
+ul li{
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    display: flexbox;
+    margin-left: 0 auto;
+    padding: 0;
+}
+
+#pokeInput{
+    width: 30%;
+}
